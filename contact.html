@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Clothing - Contact Us</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="col-md-3">
+            <a class="navbar-brand" href="index.html">High Clothing</a>
+            <button class="navbar-brand navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="col-md-11">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    </div>
+                    <div class="col-md-11">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    </div>
+                    <div class="col-md-11">
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    </div>
+                    <div class="col-md-11">
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+     <main class="container my-5" style="max-width: 600px;">
+        <h1 class="text-center mb-4">Contact Us</h1>
+        <p class="text-center text-muted mb-4">Got any questions about sizing or orders? Drop us a message using the form below.</p>
+        
+        <div class="card p-4 shadow-sm">
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="userName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="userName" placeholder="Enter your full name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="userEmail" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="userEmail" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="userMessage" class="form-label">Message</label>
+                    <textarea class="form-control" id="userMessage" rows="5" placeholder="Write your inquiry here..." required></textarea>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-block">Submit Message</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3 mt-auto">
+        <p class="mb-0">&copy; 2026 High Clothing.</p>
+    </footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

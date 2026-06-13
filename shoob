@@ -1,0 +1,7 @@
+let f = Object.values(document.querySelector('.card-main'))
+.find(x => x?.return);
+
+while (f && !f.stateNode?.state?.cards)
+    f = f.return;
+
+console.log(f.stateNode.state.cards[0]);

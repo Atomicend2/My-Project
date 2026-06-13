@@ -5,3 +5,131 @@ while (f && !f.stateNode?.state?.cards)
     f = f.return;
 
 console.log(f.stateNode.state.cards[0]);
+
+
+{_id: '6a2106d526a22a3e2c1577b6', category: Array(5), slug: 'chitoge-and-raku', slugged: 'chitoge-and-raku Nisekoi Chitoge Kirisaki Raku Ich…906dea4a677b19c4f28389d7688090052b10e103a6.png t3', patched: false, …}
+ability
+: 
+false
+ability_desc
+: 
+" "
+ability_gif
+: 
+" "
+ability_name
+: 
+" "
+attributes
+: 
+[]
+authors
+: 
+(2) [{…}, {…}]
+category
+: 
+(5) ['Nisekoi', 'Chitoge Kirisaki', 'Raku Ichijou', 'Duo', 'Batch 20']
+claim_count
+: 
+0
+file
+: 
+"cbc1acf6b52f4f4720482e906dea4a677b19c4f28389d7688090052b10e103a6.png"
+has_webp
+: 
+false
+id
+: 
+"6a2106d526a22a3e2c1577b6"
+name
+: 
+"Chitoge & Raku"
+partners
+: 
+[]
+patched
+: 
+false
+server_id
+: 
+null
+slug
+: 
+"chitoge-and-raku"
+slugged
+: 
+"chitoge-and-raku Nisekoi Chitoge Kirisaki Raku Ichijou Duo Batch 20 cbc1acf6b52f4f4720482e906dea4a677b19c4f28389d7688090052b10e103a6.png t3"
+tier
+: 
+"3"
+__v
+: 
+0
+_id
+: 
+"6a2106d526a22a3e2c1577b6"
+[[Prototype]]
+: 
+Object
+
+{_id: '695a65d64aadfb4851557cf4', category: Array(3), slug: '54eb4930d98c35d19619d60a205fadbe34c0f9d97476e8d4abca9a4320b9c8b9.gif', slugged: 'aobuta mai sakurajima ts', patched: true, …}
+ability
+: 
+false
+ability_desc
+: 
+" "
+ability_gif
+: 
+" "
+ability_name
+: 
+" "
+authors
+: 
+[{…}]
+category
+: 
+(3) ['Aobuta', 'Mai Sakurajima', 'TS']
+claim_count
+: 
+0
+file
+: 
+"54eb4930d98c35d19619d60a205fadbe34c0f9d97476e8d4abca9a4320b9c8b9.gif"
+has_webm
+: 
+true
+has_webp
+: 
+true
+id
+: 
+"695a65d64aadfb4851557cf4"
+name
+: 
+"Mai's 2026 Wish"
+patched
+: 
+true
+slug
+: 
+"54eb4930d98c35d19619d60a205fadbe34c0f9d97476e8d4abca9a4320b9c8b9.gif"
+slugged
+: 
+"aobuta mai sakurajima ts"
+tier
+: 
+"S"
+__v
+: 
+0
+_id
+: 
+"695a65d64aadfb4851557cf4"
+[[Prototype]]
+: 
+Object
+
+
+
